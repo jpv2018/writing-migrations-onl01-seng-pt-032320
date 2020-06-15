@@ -3,6 +3,6 @@ end
 
 def change
   create_table :students do |t|
-    t.name
+    t.string :name
   end
 end
